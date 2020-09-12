@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Вадим](https://up.htmlacademy.ru/htmlcss/29/user/1598449).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Беллавин](https://htmlacademy.ru/profile/bellavin).
 
 ---
 
