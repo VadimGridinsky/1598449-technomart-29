@@ -1,0 +1,484 @@
+        @font-face {
+            font-family: "Cuprum";
+            src: url(fonts/Cuprum-Bold.ttf);
+        }
+        
+        body {
+            font-family: 'Cuprum', sans-serif;
+            background: rgba(0, 0, 0, 0.0001);
+            margin-left: 130px;
+            margin-right: 130px;
+        }
+        
+        a {
+            color: #FFFFFF;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        .header-top {
+            background: #293449;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .header-top-logo {
+            width: 220px;
+            height: 47px;
+        }
+        
+        .search-input {
+            font-style: normal;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
+        }
+        
+        .header-top-links-bookmarks {
+            font-style: normal;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #FFFFFF;
+        }
+        
+        .header-top-links-basket {
+            font-style: normal;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #FFFFFF;
+        }
+        
+        .header-top-links-placeorder {
+            font-style: normal;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
+            height: 42px;
+            width: 150px;
+            background: #63A63E;
+            color: #FFFFFF;
+            text-align: center;
+        }
+        
+        .header-contacts {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        h1 {
+            font-family: 'Cuprum', sans-serif;
+            font-style: italic;
+            color: #EE3643;
+            font-size: 16px;
+            line-height: 23px;
+        }
+        
+        .number {
+            color: #EE3643;
+            font-size: 21px;
+            line-height: 30px;
+            font-weight: 700;
+        }
+        
+        .adress {
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 400;
+            align: center;
+        }
+        
+        .autorization-button {
+            font-size: 21px;
+            line-height: 21px;
+            border: none;
+        }
+        
+        .registration-button {
+            font-size: 21px;
+            line-height: 21px;
+            border: none;
+        }
+        
+        .header-nav {
+            font-family: "Cuprum";
+            background: #293449;
+            height: 60px;
+        }
+        
+        .header-nav-list {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+        }
+        
+        .header-nav-list-item {
+            color: #FFFFFF;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+        }
+        
+        .catalog-list {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .catalog-list-item {
+            width: 300px;
+            height: 123px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .catalog-list-title {
+            font-size: 24px;
+            line-height: 30px;
+            font-weight: 700;
+            color: #ffffff;
+        }
+        
+        .catalog-list-button {
+            font-family: 'Cuprum', sans-serif;
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: 400;
+            width: 135px;
+            height: 38px;
+            border: none;
+            opacity: 0.3;
+            color: #FFFFFF;
+        }
+        
+        .catalog-list-item-materials {
+            background: #FFBF47;
+        }
+        
+        .catalog-list-item-tools {
+            background: #3BBCE3;
+        }
+        
+        .catalog-list-item-for-construction {
+            background: #DC91D8;
+        }
+        
+        .catalog-list-item-sales {
+            background: #8ED78F;
+        }
+        
+        .catalog-list-item-delivery {
+            background: #FFC047;
+        }
+        
+        .slider-item {
+            width: 620px;
+            height: 266px;
+            position: relative;
+        }
+        
+        .catalog-list-item-slider {
+            width: 620px;
+            height: 266px;
+        }
+        
+        .slider img {
+            width: 620px;
+            height: 266px;
+            position: absolute;
+        }
+        
+        .slider-title {
+            position: relative;
+            font-size: 36px;
+            line-height: 36px;
+            font-weight: 700;
+            color: #FFFFFF;
+            text-transform: uppercase;
+        }
+        
+        .slider-text {
+            position: relative;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400px;
+            color: #FFFFFF;
+        }
+        
+        .slider-buttons {
+            position: relative;
+            font-family: 'Cuprum', sans-serif;
+        }
+        
+        .slider-catalog-button {
+            font-family: 'Cuprum', sans-serif;
+            position: relative;
+            background: #EE3643;
+            width: 192px;
+            height: 38px;
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+            border: none;
+            text-transform: uppercase;
+        }
+        
+        .products {
+            padding-top: 59px;
+        }
+        
+        .products-title {
+            width: 940px;
+            height: 89px;
+            font-size: 30px;
+            line-height: 30px;
+            font-weight: 400;
+            color: #32425C;
+            background: #F9F5F0;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .products-title a {
+            width: 192px;
+            height: 38px;
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: 400;
+            color: #FFFFFF;
+            background: #EE3643;
+        }
+        
+        .products-list {
+            display: flex;
+            justify-content: space-around;
+            font-family: 'Pt Sans' sans-serif;
+        }
+        
+        .products-list-item {
+            width: 220px;
+            height: 318px;
+            border: 1px solid #7c7e83;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Pt Sans' sans-serif;
+        }
+        
+        .products-item-img {
+            width: 184px;
+            height: 164px;
+        }
+        
+        .products-item-title {
+            font-family: 'Pt Sans' sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 20px;
+        }
+        
+        .products-item-old-price {
+            font-size: 17px;
+            font-family: 'Pt Sans' sans-serif;
+            line-height: 18px;
+            font-weight: 700;
+            color: #A9A9A9;
+            text-decoration: line-through;
+        }
+        
+        .products-item-new-price {
+            font-family: 'Pt Sans' sans-serif;
+            width: 141px;
+            height: 38px;
+            background: #EE3643;
+            font-size: 17px;
+            line-height: 18px;
+            font-weight: 700;
+            border: none;
+            color: #FFFFFF;
+        }
+        
+        .brands-title {
+            width: 940px;
+            height: 89px;
+            font-size: 30px;
+            line-height: 30px;
+            font-weight: 400;
+            color: #32425C;
+            background: #F9F5F0;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .brands-title a {
+            width: 192px;
+            height: 38px;
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: 400;
+            color: #FFFFFF;
+            background: #EE3643;
+        }
+        
+        .brands-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .brands-list-item {
+            width: 245px;
+            height: 145px;
+            border: 1px solid #7c7e83;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .services-title {
+            font-size: 30px;
+            line-height: 30px;
+            font-weight: 400;
+        }
+        
+        .services-text {
+            font-size: 13px;
+            line-height: 24px;
+            font-family: 'Pt Sans', sans-serif;
+        }
+        
+        .services-right-middle-title {
+            font-size: 30px;
+            line-height: 30px;
+            font-weight: 400;
+        }
+        
+        .services-right-middle-text {
+            font-size: 13px;
+            line-height: 24px;
+            font-family: 'Pt Sans', sans-serif;
+        }
+        
+        .services-left-middle-list {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .services-left-middle-list-item {
+            height: 61px;
+            width: 240px;
+            font-size: 21px;
+            line-height: 30px;
+            font-weight: 700;
+            box-shadow: 0px 1px 0px #FFFFFF;
+        }
+        
+        .services-left-middle-list-item-black {
+            background: #32425C;
+            color: #FFFFFF;
+            height: 61px;
+            width: 240px;
+            box-shadow: 0px 1px 0px #293449, inset 0px 1px 0px #405069;
+        }
+        
+        .services-right-middle-img {
+            height: 261px;
+            width: 468px;
+        }
+        
+        .services-bottom-title {
+            font-size: 30px;
+            line-height: 30px;
+            font-weight: 400;
+        }
+        
+        .services-bottom-text {
+            font-size: 13px;
+            line-height: 24px;
+            font-family: 'Pt Sans', sans-serif;
+        }
+        
+        .services-left-bottom-list {}
+        
+        .services-left-bottom-list-item {
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
+        }
+        
+        .contacts-title {
+            font-size: 30px;
+            line-height: 30px;
+            font-weight: 400;
+        }
+        
+        .contacts-map-img {
+            width: 300px;
+            height: 158px;
+        }
+        
+        .contacts-text {
+            font-size: 13px;
+            line-height: 24px;
+            font-family: 'Pt Sans', sans-serif;
+        }
+        
+        .contacts-map-button {
+            width: 300px;
+            height: 38px;
+            background: #EE3643;
+            color: #FFFFFF;
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: 400;
+        }
+        
+        .footer-top {
+            background: #293449;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .footer-middle {
+            background: #293449;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .footer-bottom {
+            background: #293449;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .footer-top-list {
+            display: flex;
+            justify-content: space-around;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
+        }
+        
+        .footer-middle-list {
+            display: flex;
+            justify-content: space-around;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
+        }
+        
+        .footer-middle-list-item a {
+            color: #FFD180;
+        }
+        
+        .footer-bottom-list {
+            display: flex;
+            justify-content: space-around;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
+        }
