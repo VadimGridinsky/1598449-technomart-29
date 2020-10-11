@@ -88,7 +88,6 @@
             font-size: 14px;
             line-height: 24px;
             font-weight: 400;
-            align: center;
         }
         
         .autorization-button {
@@ -402,8 +401,6 @@
             font-family: 'Pt Sans', sans-serif;
         }
         
-        .services-left-bottom-list {}
-        
         .services-left-bottom-list-item {
             font-size: 18px;
             line-height: 24px;
@@ -475,10 +472,31 @@
             color: #FFD180;
         }
         
-        .footer-bottom-list {
-            display: flex;
-            justify-content: space-around;
+        .footer-middle-adress-text {
             font-size: 18px;
             line-height: 24px;
             font-weight: 400;
+            color: #FFFFFF;
+        }
+        
+        .footer-bottom-list {
+            display: flex;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
+        }
+        
+        .footer-bottom-contacts-text {
+            font-size: 16px;
+            line-height: 18px;
+            font-weight: 400;
+            color: #FFFFFF;
+        }
+        
+        .footer-bottom-feedback {
+            color: #FFFFFF;
+        }
+        
+        .footer-span {
+            color: #FFD180;
         }
