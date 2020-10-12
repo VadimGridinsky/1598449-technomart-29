@@ -18,6 +18,10 @@ ul {
     box-sizing: border-box;
 }
 
+. .services-inner {
+    background: #F3F7F9;
+}
+
 .header-top {
     background: #293449;
     display: flex;
@@ -67,6 +71,7 @@ ul {
 .header-contacts {
     display: flex;
     justify-content: space-around;
+    background: #F3F7F9;
 }
 
 h1 {
@@ -103,12 +108,13 @@ h1 {
 }
 
 .header-nav {
+    background: #F3F7F9;
     font-family: "Cuprum";
-    background: #293449;
     height: 60px;
 }
 
 .header-nav-list {
+    background: #293449;
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -336,6 +342,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.services {
+    background: #F3F7F9;
 }
 
 .services-title {
